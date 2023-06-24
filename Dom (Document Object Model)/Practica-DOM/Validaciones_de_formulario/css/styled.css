@@ -1,0 +1,50 @@
+.formulario{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form{
+    display: grid;
+}
+
+input,
+textarea{
+    padding: 10px;
+    margin: 10px 10px 0;
+    border: thin solid #000;
+}
+
+/* .tarea{
+    padding-bottom: 20px;
+} */
+
+/* #comentar{
+    max-width: 100%;
+    height: 100px;
+} */
+
+#enviar{
+    width: 15rem;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.verde{
+    border: thin solid green;
+}
+
+.rojo{
+    border: thin solid red;
+}
+
+.barra-rojo{
+    background-color: red;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    display: none;
+}

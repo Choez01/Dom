@@ -1,0 +1,9 @@
+#sorteo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#sorteo ul li{
+    list-style: none;
+}

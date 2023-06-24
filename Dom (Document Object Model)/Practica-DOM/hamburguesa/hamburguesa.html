@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburguesa</title>
+
+    <link rel="stylesheet" href="./css/styled.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8d2875a90f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="scroller">
+        <nav class="navbar">
+            <a href="/" class="logo">< /Choez ></a>
+            <h1>Menu Hamburguesa</h1>
+            <ul class="menu">
+                <li><a href="#section_1" class="link" data-section>Responsive_Javascript</a></li>
+                <li><a href="#section_2" class="link" data-section>Responsive Tester</a></li>
+                <li><a href="#section_3" class="link" data-section>Video inteligente</a></li>
+                <li><a href="#section_4" class="link" data-section>section 4</a></li>
+                <li><a href="#section_5" class="link" data-section>section 5</a></li>
+                <li><a href="#section_6" class="link" data-section>section 6</a></li>
+                <li><a href="#section_7" class="link" data-section>section 7</a></li>
+            </ul>
+
+            <div class="toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+        <main>
+            <section class="section" id="section_1" data-section>
+            <h2>Responsive javascript</h2>
+            <div class="video"></div>
+            <div class="mapa"></div>
+            </section>
+
+            <section class="section" id="section_2" data-section>
+            <h2>Responsive Tester</h2>
+            <form action="">
+                <ul>
+                    <li><input id="url" type="url" value="" placeholder="URL Pagina web"></li>
+                    <li><input id="ancho" type="" value="" placeholder="ancho"></li>
+                    <li><input id="alto" type="" value="" placeholder="alto"></li>
+                </ul>
+            </form>
+            <div class="boton">
+                <input id="open" type="submit" value="Probar">
+                <input id="closed" type="button" value="Cerrar">
+            </div>
+            </section>
+
+            <section class="section" id="section_3" data-section>
+                <h2>Video inteligente</h2>
+                <video id="video" src="./video/programacion.mp4" controls></video>
+            </section>
+            <section class="section" id="section_4" data-section><h2>section 4</h2></section>
+            <section class="section" id="section_5" data-section><h2>section 5</h2></section>
+            <section class="section" id="section_6" data-section><h2>section 6</h2></section>
+            <section class="section" id="section_7" data-section><h2>section 7</h2></section>
+        </main>
+
+    <button class="scroll">&#8593</button>
+
+    <button class="dark">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+    </button>
+
+    <script src="./js/hamburguesa.js"></script>
+</body>
+</html>

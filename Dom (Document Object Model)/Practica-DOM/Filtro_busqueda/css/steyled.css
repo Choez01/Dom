@@ -1,0 +1,35 @@
+:root{
+    --yellow: #fdc500;
+    --dark: #222;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+input{
+    position: absolute;
+    right: 40vw;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: var(--dark);
+    color: var(--yellow);
+}
+
+.Img{
+    height: 250px;
+    min-width: 200px;
+    max-width: 100%;
+    box-shadow: 8px 8px var(--yellow);
+}
+
+.Img figcaption{
+    padding: 1rem;
+}
